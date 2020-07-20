@@ -8,3 +8,7 @@ __pycache__/
 # Environments
 env
 venv
+
+# Visual Studio Code settings
+.vscode
+
