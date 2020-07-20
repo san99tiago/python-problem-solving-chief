@@ -30,19 +30,15 @@ class Solution(object):
         :rtype: ListNode
         """
         # Check that we are given non-null lists
-        if self.get_full_number(l1) == 0:
-            return l2
-        if self.get_full_number(l2) == 0:
-            return l1
+        if self.get_full_number(l1) == 0: return l2
+        if self.get_full_number(l2) == 0: return l1
 
         # Compute the sum of them and convert them in string
         total = str(self.get_full_number(l1) + self.get_full_number(l2))
 
-        result = self.result_list(total[::-1])
-        return result
+        return self.result_list(total[::-1])
 
     def get_full_number(self, list_node):
-        # Variable to create string to concatenate numbers of linked lists
         number = ""
 
         # Current variable to do recurssion on linked_lists until last one
