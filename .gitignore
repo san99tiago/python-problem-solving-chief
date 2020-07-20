@@ -12,3 +12,5 @@ venv
 # Visual Studio Code settings
 .vscode
 
+# Temporary
+tempCodeRunnerFile.py
