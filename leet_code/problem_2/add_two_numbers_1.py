@@ -3,9 +3,9 @@
 
 """
 DESCRIPTION:
-You are given two non-empty linked lists representing two non-negative 
-integers. 
-The digits are stored in reverse order and each of their nodes contain a 
+You are given two non-empty linked lists representing two non-negative
+integers.
+The digits are stored in reverse order and each of their nodes contain a
 single digit. Add the two numbers and return it as a linked list.
 You may assume the two numbers do not contain any leading zero,
 except the number 0 itself.
@@ -16,11 +16,13 @@ Example:
     Explanation: 342 + 465 = 807
 """
 
+
 # Definition for singly-linked list. (given by the problem)
 class ListNode(object):
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
+
 
 class Solution(object):
     def addTwoNumbers(self, l1, l2):
@@ -30,8 +32,10 @@ class Solution(object):
         :rtype: ListNode
         """
         # Check that we are given non-null lists
-        if self.get_full_number(l1) == 0: return l2
-        if self.get_full_number(l2) == 0: return l1
+        if self.get_full_number(l1) == 0:
+            return l2
+        if self.get_full_number(l2) == 0:
+            return l1
 
         # Compute the sum of them and convert them in string
         total = str(self.get_full_number(l1) + self.get_full_number(l2))
