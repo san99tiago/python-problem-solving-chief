@@ -55,12 +55,4 @@ class Solution(object):
             return ListNode(int(total[0]), self.result_list(new_total))
 
 
-l1 = ListNode(2, ListNode(4, ListNode(3)))
-l2 = ListNode(5, ListNode(6, ListNode(4)))
-
-sol = Solution()
-print("LIST_1 = ", sol.get_full_number(l1))
-print("LIST 2 = ", sol.get_full_number(l2))
-
-result_list = sol.addTwoNumbers(l1, l2)
-print("RESULT LIST = ", sol.get_full_number(result_list))
+# Tests are in <test_add_two_numbers_1.py>
