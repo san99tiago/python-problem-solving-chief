@@ -1,0 +1,3 @@
+# Ignore unsolved problems
+pragma_2*.py
+pragma_3*.py
