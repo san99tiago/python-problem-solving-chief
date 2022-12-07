@@ -1,3 +1,6 @@
+# Own ignores
+temp.*
+
 # Byte-compiled / optimized
 __pycache__/
 *.py[cod]
