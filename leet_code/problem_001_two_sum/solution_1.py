@@ -1,4 +1,4 @@
-# SOLUTION 1 OF LEETCODE PROBLEM 1
+# LEETCODE PROBLEM 001 (SOLUTION 1)
 # Santiago Garcia Arango, July 2020
 
 """
@@ -28,8 +28,3 @@ class Solution(object):
                 current_sum = nums[i] + nums[j]
                 if current_sum == target:
                     return [i, j]
-
-
-s1 = Solution()
-print(s1.twoSum([2, 7, 11, 15], 9))
-print(s1.twoSum([2, 3, 5, 6], 9))

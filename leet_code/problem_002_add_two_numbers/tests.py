@@ -1,4 +1,4 @@
-# UNIT-TEST FOR <add_two_numbers_1.py>
+# UNIT-TEST
 # Santiago Garcia Arango, July 2020
 
 import unittest

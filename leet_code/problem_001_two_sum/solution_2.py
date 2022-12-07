@@ -1,4 +1,4 @@
-# SOLUTION 2 OF LEETCODE PROBLEM 1
+# LEETCODE PROBLEM 001 (SOLUTION 2)
 # Santiago Garcia Arango, July 2020
 
 """
@@ -31,7 +31,3 @@ class Solution:
             # Add current number checked to the <already_checked> dictionary
             # Note: the value of each key will allow us to return index later
             already_checked[nums[i]] = i
-
-s1 = Solution()
-print(s1.twoSum([2, 7, 11, 15], 9))
-print(s1.twoSum([2, 3, 5, 6], 9))

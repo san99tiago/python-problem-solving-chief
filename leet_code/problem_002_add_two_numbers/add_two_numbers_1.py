@@ -1,4 +1,4 @@
-# SOLUTION 1 OF LEETCODE PROBLEM 2
+# SOLUTION 1 OF LEETCODE PROBLEM 002
 # Santiago Garcia Arango, July 2020
 
 """
@@ -57,6 +57,3 @@ class Solution(object):
         if len(total) > 0:
             new_total = total[1:]
             return ListNode(int(total[0]), self.result_list(new_total))
-
-
-# Tests are in <test_add_two_numbers_1.py>
