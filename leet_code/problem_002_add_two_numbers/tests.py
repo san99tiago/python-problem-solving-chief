@@ -2,10 +2,10 @@
 # Santiago Garcia Arango, July 2020
 
 import unittest
-from add_two_numbers_1 import ListNode, Solution
+from solution_1 import ListNode, Solution
 
 
-class TestAddTwoNumbers(unittest.TestCase):
+class TestSolution(unittest.TestCase):
     def setUp(self):
         # Create all ListNode objects for the tests
         self.l1 = ListNode(2, ListNode(4, ListNode(3)))
@@ -15,9 +15,6 @@ class TestAddTwoNumbers(unittest.TestCase):
         self.l5 = ListNode(9, ListNode(9, ListNode(9)))
 
         self.sol = Solution()
-
-    def tearDown(self):
-        pass
 
     def test_get_full_number(self):
         self.assertEqual(self.sol.get_full_number(self.l1), 342)

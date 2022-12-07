@@ -1,4 +1,4 @@
-# SOLUTION 1 OF LEETCODE PROBLEM 002
+# LEETCODE PROBLEM 002
 # Santiago Garcia Arango, July 2020
 
 """
