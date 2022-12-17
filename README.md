@@ -1,5 +1,11 @@
 # :snake: PYTHON PROBLEM SOLVING CHIEF :snake:
 
+Welcome to my personal solutions for coding-challenges in Python. Thanks for visiting and wish you a great day!
+
+> "The joy of coding Python should be in seeing short, concise, readable classes that express a lot of action in a small amount of clear code -- not in reams of trivial code that bores the reader to death." - Guido van Rossum
+
+<br>
+
 <img src="assets/CodingGIF.gif" width=35%> <img src="assets/PythonGIF.gif" width=35%>
 
 <br>
