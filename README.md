@@ -27,10 +27,6 @@ These are coding problems that are usually related to competitive programming in
 
 ## Dependencies :vertical_traffic_light:
 
-The dependencies are explained in detail for each project, but the most important ones are Python and AWS-CDK. <br>
-
-My advice is to primary understand the basics on how CDK works, and then, develop amazing projects with this incredible AWS tool!. <br>
-
 ### Software dependencies (based on project)
 
 - [Visual Studio Code](https://code.visualstudio.com/) <br>
@@ -41,7 +37,8 @@ My advice is to primary understand the basics on how CDK works, and then, develo
 
 ### Libraries and Package dependencies (based on project)
 
-None. All of these challenges are developed with the built-in libraries and do not require any external dependency. <br>
+- [None](). <br>
+  All of these challenges are developed with the built-in libraries and do not require any external dependency. <br>
 
 ## Usage :dizzy:
 
