@@ -1,6 +1,6 @@
 # :snake: PYTHON PROBLEM SOLVING CHIEF :snake:
 
-<img src="assets/CodingGIF.gif" width=35%><img src="assets/PythonGIF.gif" width=35%>
+<img src="assets/CodingGIF.gif" width=34%> <img src="assets/PythonGIF.gif" width=32%>
 
 <br>
 
